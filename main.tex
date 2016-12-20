@@ -61,7 +61,6 @@ Mobile  \> \varMobile \\
 %----------------------------------------------------------------------------------------
 
 \section{Experience}
-
 \professional{}
 
 
@@ -106,22 +105,14 @@ Mobile  \> \varMobile \\
 
 
 %----------------------------------------------------------------------------------------
-%	ADVISED STUDENTS
-%----------------------------------------------------------------------------------------
-
-\ifcsname advisedstudents\endcsname%
-\section{Mentored Students}
-\advisedstudents{}
-\fi
-
-
-%----------------------------------------------------------------------------------------
 %	LANGUAGES
 %----------------------------------------------------------------------------------------
 
+\iffalse
 \ifcsname languages\endcsname%
 \section{Languages}
 \languages{}
+\fi
 \fi
 
 
@@ -129,9 +120,21 @@ Mobile  \> \varMobile \\
 %	INTERESTS
 %----------------------------------------------------------------------------------------
 
+\iffalse
 \ifcsname interests\endcsname%
 \section{Interests}
 \interests{}
+\fi
+\fi
+
+
+%----------------------------------------------------------------------------------------
+%	ADVISED STUDENTS
+%----------------------------------------------------------------------------------------
+
+\ifcsname advisedstudents\endcsname%
+\section{Mentored Students}
+\advisedstudents{}
 \fi
 
 
